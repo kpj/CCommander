@@ -1,0 +1,6 @@
+#!/bin/python3
+from ccommander import music_visualizer
+
+
+if __name__ == '__main_':
+    music_visualizer.main()
