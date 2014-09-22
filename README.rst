@@ -5,7 +5,7 @@ A wrapper for cirrus7_'s LightCommander python API.
 
 Examples
 --------
-CCommander features a couple of usage example:
+CCommander features a couple of usage examples:
 
 * Music Visualization
 
