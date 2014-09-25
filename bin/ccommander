@@ -1,6 +1,10 @@
 #!/bin/python3
-from ccommander import music_visualizer
+import sys
+
+from ccommander.examples import music_visualizer
 
 
-if __name__ == '__main_':
-    music_visualizer.main()
+if len(sys.argv) == 2:
+    music_visualizer.main(sys.argv[1])
+else:
+    print('Usage: %s <music file>' % sys.argv[0])
